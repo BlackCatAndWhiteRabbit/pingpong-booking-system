@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "bookingId": 1,
+    "raterStudentId": "25371305",
+    "ratedStudentId": "25371317",
+    "skill": 1,
+    "pleasure": 1,
+    "createdAt": "2025-11-26T12:01:10.308Z"
+  },
+  {
+    "id": 2,
+    "bookingId": 1,
+    "raterStudentId": "25371317",
+    "ratedStudentId": "25371305",
+    "skill": 3,
+    "pleasure": 3,
+    "createdAt": "2025-11-26T12:01:29.774Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "刘宇轩",
+    "studentId": "25371305",
+    "password": "123",
+    "bio": "我是人",
+    "level": 2,
+    "isAdmin": true,
+    "createdAt": "2025-11-26T11:50:34.168Z"
+  },
+  {
+    "id": 2,
+    "name": "马雨辰",
+    "studentId": "25371317",
+    "password": "123",
+    "bio": "我是兔子",
+    "level": 1,
+    "isAdmin": false,
+    "createdAt": "2025-11-26T11:50:55.174Z"
+  },
+  {
+    "id": 3,
+    "name": "贾远东",
+    "studentId": "25371302",
+    "password": "123",
+    "bio": "",
+    "level": 0,
+    "isAdmin": false,
+    "createdAt": "2025-11-26T11:57:21.227Z"
+  },
+  {
+    "id": 4,
+    "name": "甘羽乔",
+    "studentId": "25371319",
+    "password": "123",
+    "bio": "我是猫",
+    "level": 1,
+    "isAdmin": false,
+    "createdAt": "2025-11-26T11:57:33.225Z"
+  }
+]
