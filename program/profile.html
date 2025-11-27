@@ -183,7 +183,7 @@
             // 填充当前信息到表单
             const sessionId = localStorage.getItem('sessionId');
             if (sessionId) {
-                fetch('/api/user', {
+                fetch('https://pingpong-backend-203004-6-1388729431.sh.run.tcloudbase.com/api/user', {
                     headers: {
                         'Authorization': sessionId
                     }
@@ -235,7 +235,7 @@
             const level = document.querySelector('input[name="level"]:checked')?.value;
 
             try {
-                const response = await fetch('/api/users/profile', {
+                const response = await fetch('https://pingpong-backend-203004-6-1388729431.sh.run.tcloudbase.com/api/users/profile', {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
@@ -652,7 +652,7 @@
                 
                 for (const rating of ratingsToSubmit) {
                     try {
-                        const response = await fetch('/api/ratings', {
+                        const response = await fetch('https://pingpong-backend-203004-6-1388729431.sh.run.tcloudbase.com/api/ratings', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
@@ -718,7 +718,7 @@
                 const sessionId = localStorage.getItem('sessionId');
                 if (!sessionId) return;
 
-                const response = await fetch('/api/ratings');
+                const response = await fetch('https://pingpong-backend-203004-6-1388729431.sh.run.tcloudbase.com/api/ratings');
                 const data = await response.json();
                 if (data.success) {
                     ratings = data.ratings;
@@ -742,3 +742,4 @@
     </script>
 </body>
 </html>
+
